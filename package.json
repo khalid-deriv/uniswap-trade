@@ -1,19 +1,18 @@
 {
-  "name": "uniswap-trade",
+  "name": "330-uniswap-trading-nodejs",
   "version": "1.0.0",
-  "description": "A uniswap trader app",
-  "main": "script/trade.js",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/khalid-deriv/uniswap-trade.git"
-  },
-  "author": "khalidasa",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/khalid-deriv/uniswap-trade/issues"
-  },
-  "homepage": "https://github.com/khalid-deriv/uniswap-trade#readme"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.6"
+  }
 }
