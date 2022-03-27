@@ -2,11 +2,12 @@ const Router = artifacts.require('Router.sol');
 const Weth = artifacts.require('Weth.sol');
 const Dai = artifacts.require('Dai.sol');
 
-const ROUTER_ADDRESS = '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D';
+const ROUTER_ADDRESS = '0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506'; // sushiswap router address
+// '0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D'; /// Uniswap router address
 const WETH_ADDRESS = '0xc778417E063141139Fce010982780140Aa0cD5Ab';
 const DAI_ADDRESS = '0x5592EC0cfb4dbc12D3aB100b257153436a1f0FEa'; 
 
-const amountIn = web3.utils.toWei('0.1');
+const amountIn = web3.utils.toWei('0.01');
 
 module.exports = async done => {
   try {

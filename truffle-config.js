@@ -1,6 +1,6 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = '';
-const rinkebyUrl = ''; 
+const mnemonic = process.env.PRIVATE_KEY;
+const rinkebyUrl = process.env.ENVIRONMENT == "TEST" ? process.env.RINKBY_URL : process.env.MAINNET_URL
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
