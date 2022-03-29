@@ -13,6 +13,7 @@
   "author": "khalidasa",
   "license": "MIT",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^1.2.6"
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "dotenv": "^16.0.0"
   }
 }
